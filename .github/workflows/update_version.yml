@@ -1,9 +1,12 @@
 name: Update Version
 on:
   pull_request:
+    branches:
+      - develop
     types: [closed]
 jobs:
   version-bump:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,7 +20,6 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
       - name: Create version bump commit
-        if: github.event.pull_request.merged == true && github.ref == 'develop'
         run: |
           git config user.name 'd-leb[bot]'
           git config user.email 'github@david-leblanc.com'
