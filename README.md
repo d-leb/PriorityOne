@@ -106,8 +106,13 @@ A complete build will be generated and placed in the ***build*** folder.
 yarn build
 ```
 
+## Environment Variables
+
+Create an .env file to store your environment variables.
+
 ## Built With
 
+- [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
