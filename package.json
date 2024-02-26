@@ -20,9 +20,18 @@
     "test": "yarn tsc",
     "tsc": "tsc"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "web-vitals": "^3.5.2"
+  },
   "devDependencies": {
     "@swc/core": "^1.4.2",
     "@swc/helpers": "^0.5.6",
+    "@types/react": "^18.2.59",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-is": "^18",
     "@types/webpack-bundle-analyzer": "^4",
     "browserslist": "^4.23.0",
     "compression-webpack-plugin": "^11.0.0",
