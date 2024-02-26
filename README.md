@@ -38,6 +38,16 @@ Setup package dependencies. This will install package dependencies using node mo
 yarn install
 ```
 
+Be sure to install recommended extensions for VSCode. The project workspace settings are already pre-configured. This will allow VCode to automatically format your code.
+
+The Development environment can now be started.
+
+```
+yarn start
+```
+
+Your default web browser should open or you can open any web browser on your development machine and visit [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 ## Running the tests
 
 Github will automatically run each of the following tests before allowing a PR to be merged. You can manually run all tests by running the review script.
@@ -66,13 +76,34 @@ If issues are found, you may try to automatically correct the issues.
 yarn prettier:fix
 ```
 
+### Test coverage (Integration and Unit)
+
+All tests can be run using the test script.
+
+```
+yarn test
+```
+
+You can manually check TypeScript types and syntax.
+
+```
+yarn tsc
+```
+
 ## Deployment
 
-Deployment builds are not available at this time.
+A complete build will be generated and placed in the ***build*** folder.
+
+```
+yarn build
+```
 
 ## Built With
 
 - [Prettier](https://prettier.io/) - An opinionated code formatter
+- [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
+- [Webpack](https://webpack.js.org/) - Static module bundler
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning
