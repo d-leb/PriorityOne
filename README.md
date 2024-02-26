@@ -38,12 +38,41 @@ Setup package dependencies. This will install package dependencies using node mo
 yarn install
 ```
 
+## Running the tests
+
+Github will automatically run each of the following tests before allowing a PR to be merged. You can manually run all tests by running the review script.
+
+```
+yarn review
+```
+
+### Code quality tests
+
+All code quality tests can be run using the lint script.
+
+```
+yarn lint
+```
+
+Code formatting can be manually verified using prettier.
+
+```
+yarn prettier
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn prettier:fix
+```
+
 ## Deployment
 
 Deployment builds are not available at this time.
 
 ## Built With
 
+- [Prettier](https://prettier.io/) - An opinionated code formatter
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning

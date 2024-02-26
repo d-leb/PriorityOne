@@ -8,5 +8,14 @@
     "type": "git",
     "url": "https://github.com/d-leb/PriorityOne.git"
   },
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "scripts": {
+    "lint": "yarn prettier",
+    "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
+    "review": "yarn lint"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
