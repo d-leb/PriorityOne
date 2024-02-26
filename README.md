@@ -90,6 +90,14 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
+### Bundle and Chunk management
+
+Chunk and module sizes and entry points can be examined.
+
+```
+yarn analyze
+```
+
 ## Deployment
 
 A complete build will be generated and placed in the ***build*** folder.
@@ -104,6 +112,7 @@ yarn build
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
+- [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/) - Visualize size of webpack output files with an interactive zoomable treemap
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning
