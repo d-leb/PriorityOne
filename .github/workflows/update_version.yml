@@ -1,12 +1,12 @@
 name: Update Version
 on:
   pull_request:
-    types: [closed]
     branches:
-      - 'develop'
+      - develop
+    types: [closed]
 jobs:
   version-bump:
-    if: github.event.pull_request.merged == true && github.ref == 'develop'
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
