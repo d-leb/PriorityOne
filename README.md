@@ -112,6 +112,7 @@ Create an .env file to store your environment variables.
 
 ## Built With
 
+- [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
