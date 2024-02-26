@@ -12,6 +12,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@axe-core/react@npm:^4.8.5":
+  version: 4.8.5
+  resolution: "@axe-core/react@npm:4.8.5"
+  dependencies:
+    axe-core: "npm:~4.8.4"
+    requestidlecallback: "npm:^0.3.0"
+  checksum: 10c0/9e731780c9e9c71bda1d921b5be9e9e704488b59158566b8797847e3da31180a2fb25c3e12459a30ee05194d6464a887e3746a4d0d9abc27936e30d105847318
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.23.2":
   version: 7.23.9
   resolution: "@babel/runtime@npm:7.23.9"
@@ -1307,6 +1317,13 @@ __metadata:
   version: 4.7.0
   resolution: "axe-core@npm:4.7.0"
   checksum: 10c0/89ac5712b5932ac7d23398b4cb5ba081c394a086e343acc68ba49c83472706e18e0799804e8388c779dcdacc465377deb29f2714241d3fbb389cf3a6b275c9ba
+  languageName: node
+  linkType: hard
+
+"axe-core@npm:~4.8.4":
+  version: 4.8.4
+  resolution: "axe-core@npm:4.8.4"
+  checksum: 10c0/1100ac42c4b8cde1fb7c428d2b76e5a14e20d9d41fe635c55048e4ba27f1eded729b838379a036b5ef9cf25ba7f7bedeef01ebd3b4accd2afee397b10b0265c4
   languageName: node
   linkType: hard
 
@@ -4746,6 +4763,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "priorityone@workspace:."
   dependencies:
+    "@axe-core/react": "npm:^4.8.5"
     "@swc/core": "npm:^1.4.2"
     "@swc/helpers": "npm:^0.5.6"
     "@types/eslint": "npm:^8"
@@ -5001,6 +5019,13 @@ __metadata:
     lodash: "npm:^4.17.21"
     strip-ansi: "npm:^6.0.1"
   checksum: 10c0/24a9fae4cc50e731d059742d1b3eec163dc9e3872b12010d120c3fcbd622765d9cda41f79a1bbb4bf63c1d3442f18a08f6e1642cb5d7ebf092a0ce3f7a3bd143
+  languageName: node
+  linkType: hard
+
+"requestidlecallback@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "requestidlecallback@npm:0.3.0"
+  checksum: 10c0/68a2ff3154788643ccf96436cfaf8ad5bbe2f4d3f4b4d7858ec74681bf7d6a487d17df6a238130ff1e73d0a4a85bdc44b5f945eb79ef7d5552e23fc6288e795f
   languageName: node
   linkType: hard
 
