@@ -1,8 +1,8 @@
 import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import { reportWebVitals } from 'utils/reportWebVitals'
 import { App } from './App'
+import { reportWebVitals } from 'utils/reportWebVitals'
 
 const rootElement = document.getElementById('root')
 const root = rootElement ? createRoot(rootElement) : undefined
@@ -12,7 +12,5 @@ root?.render(
     <App />
   </StrictMode>,
 )
-
-const cssTransitionTimeout = 1000
 
 reportWebVitals()

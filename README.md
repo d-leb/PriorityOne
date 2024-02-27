@@ -64,6 +64,18 @@ All code quality tests can be run using the lint script.
 yarn lint
 ```
 
+Code quality is verified using ESLint.
+
+```
+yarn eslint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn eslint:fix
+```
+
 Code formatting can be manually verified using prettier.
 
 ```
@@ -120,6 +132,7 @@ Create an .env file to store your environment variables.
 
 - [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
+- [ESLint](https://eslint.org/) - Code quality inspector
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
