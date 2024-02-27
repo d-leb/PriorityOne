@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
+import { useIntl } from 'react-intl'
 import styled from 'styled-components'
 
 const Section = styled.section`
@@ -7,14 +8,17 @@ const Section = styled.section`
   width: 100%;
 `
 
-export const App = () => (
-  <main>
-    <Helmet>
-      <title>PlaceHolder Page</title>
-      <meta name="description" content="PlaceHolder Page" />
-    </Helmet>
-    <Section>
-      <span>Hello World!</span>
-    </Section>
-  </main>
-)
+export const App = () => {
+  const { formatMessage } = useIntl()
+  return (
+    <main>
+      <Helmet>
+        <title>PlaceHolder Page</title>
+        <meta name="description" content="PlaceHolder Page" />
+      </Helmet>
+      <Section>
+        <span>{formatMessage({ id: 'greeting' })}</span>
+      </Section>
+    </main>
+  )
+}
