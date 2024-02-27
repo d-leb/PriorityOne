@@ -1,0 +1,20 @@
+{
+  "jsc": {
+    "externalHelpers": true,
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": false
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "target": "es2020"
+  },
+  "isModule": true,
+  "minify": true,
+  "sourceMaps": "inline"
+}

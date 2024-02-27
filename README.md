@@ -38,12 +38,134 @@ Setup package dependencies. This will install package dependencies using node mo
 yarn install
 ```
 
+Be sure to install recommended extensions for VSCode. The project workspace settings are already pre-configured. This will allow VCode to automatically format your code.
+
+The Development environment can now be started.
+
+```
+yarn start
+```
+
+Your default web browser should open or you can open any web browser on your development machine and visit [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Running the tests
+
+Github will automatically run each of the following tests before allowing a PR to be merged. You can manually run all tests by running the review script.
+
+```
+yarn review
+```
+
+### Code quality tests
+
+All code quality tests can be run using the lint script.
+
+```
+yarn lint
+```
+
+Code quality is verified using ESLint.
+
+```
+yarn eslint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn eslint:fix
+```
+
+Code quality for CSS styles are verified using Stylelint.
+
+```
+yarn stylelint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn stylelint:fix
+```
+
+Code formatting can be manually verified using prettier.
+
+```
+yarn prettier
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn prettier:fix
+```
+
+### Test coverage (Integration and Unit)
+
+All tests can be run using the test script.
+
+```
+yarn test
+```
+
+You can manually check TypeScript types and syntax.
+
+```
+yarn tsc
+```
+
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+
+```
+yarn jest
+```
+
+### Bundle and Chunk management
+
+Chunk and module sizes and entry points can be examined.
+
+```
+yarn analyze
+```
+
 ## Deployment
 
-Deployment builds are not available at this time.
+A complete build will be generated and placed in the ***build*** folder.
+
+```
+yarn build
+```
+
+## Environment Variables
+
+Create an .env file to store your environment variables.
+
+### Optional Variables
+
+| Variable Name | Description |
+| --- | --- |
+| LOG_WEB_VITALS | Set to true to log web vitals to the console. |
 
 ## Built With
 
+- [Axe-Core](https://www.deque.com/axe/) - Accessibility testing tools
+- [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
+- [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
+- [ESLint](https://eslint.org/) - Code quality inspector
+- [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
+- [Jest](https://jestjs.io/) - JavaScript testing framework
+- [Prettier](https://prettier.io/) - An opinionated code formatter
+- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
+- [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
+- [React Router](https://reactrouter.com/) - Routing and navigation library
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
+- [Styled-Components](https://styled-components.com/) - CSS component system
+- [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
+- [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
+- [Webpack](https://webpack.js.org/) - Static module bundler
+- [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/) - Visualize size of webpack output files with an interactive zoomable treemap
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Versioning
