@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { createRoot } from 'react-dom/client'
 
 import { App } from './App'
+import { GlobalProviders } from './GlobalProviders'
 import { Environment } from 'utils/environment'
 import { reportWebVitals } from 'utils/reportWebVitals'
 
@@ -11,7 +12,9 @@ const root = rootElement ? createRoot(rootElement) : undefined
 
 root?.render(
   <StrictMode>
-    <App />
+    <GlobalProviders>
+      <App />
+    </GlobalProviders>
   </StrictMode>,
 )
 
