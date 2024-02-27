@@ -32,6 +32,7 @@
     "react-is": "^18.2.0",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.22.1",
+    "styled-components": "^6.1.8",
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
@@ -46,6 +47,7 @@
     "@types/react-dom": "^18.2.19",
     "@types/react-is": "^18",
     "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
     "@types/webpack-bundle-analyzer": "^4",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
