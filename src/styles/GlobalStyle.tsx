@@ -6,7 +6,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 40px;
     padding: 0;
-
     background-color: ${Colors.PAGE_BACKGROUND};
     font-family: sans-serif;
     font-weight: 400;

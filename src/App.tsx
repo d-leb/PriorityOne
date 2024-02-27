@@ -1,5 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
+import styled from 'styled-components'
+
+const Section = styled.section`
+  display: block;
+  width: 100%;
+`
 
 export const App = () => (
   <main>
@@ -7,8 +13,8 @@ export const App = () => (
       <title>PlaceHolder Page</title>
       <meta name="description" content="PlaceHolder Page" />
     </Helmet>
-    <section>
+    <Section>
       <span>Hello World!</span>
-    </section>
+    </Section>
   </main>
 )

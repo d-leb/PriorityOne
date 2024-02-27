@@ -76,6 +76,18 @@ If issues are found, you may try to automatically correct the issues.
 yarn eslint:fix
 ```
 
+Code quality for CSS styles are verified using Stylelint.
+
+```
+yarn stylelint
+```
+
+If issues are found, you may try to automatically correct the issues.
+
+```
+yarn stylelint:fix
+```
+
 Code formatting can be manually verified using prettier.
 
 ```
@@ -148,6 +160,7 @@ Create an .env file to store your environment variables.
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
+- [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
