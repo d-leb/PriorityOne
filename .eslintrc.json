@@ -51,7 +51,10 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": ["**/*.test.{ts,tsx}"]
+        "devDependencies": [
+          "**/testing-library.ts",
+          "**/*.test.{ts,tsx}"
+        ]
       }
     ],
     "import/order": 1,

@@ -143,6 +143,7 @@ Create an .env file to store your environment variables.
 - [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
