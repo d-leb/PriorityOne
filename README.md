@@ -143,6 +143,7 @@ Create an .env file to store your environment variables.
 - [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
