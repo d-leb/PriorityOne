@@ -1,6 +1,6 @@
 {
   "name": "priorityone",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "description": "PriorityOne is an opensource, serverless personal task management tool which can store task data in local storage.",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
